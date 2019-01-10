@@ -1,4 +1,7 @@
 # HierarchicalTaskMapping
-My masters' thesis report
+My masters' thesis report.
 
 I am unable to share the code for now. But for further details, feel free to contact me.
+
+## Abstract
+Molecular Dynamics (MD) performs non-uniform computations and communications that vary over space and time. With the advent of exascale systems, it becomes important to ensure good scalability on large number of cores. LAMMPS is one of the leading MD packages used extensively by molecular dynamics community. Despite  having multiple advantages like non-minimal routing, communication is a major bottleneck for the scalability of LAMMPS. Dragonfly topology is one of the most promising network topologies for the exascale era due to their scalability and cost. In this work, we propose strategies for efficient communications in LAMMPS MD simulations on Dragonfly network topology. In particular, we propose partitioning based task mapping algorithm, which along with considering the hierarchical nature of topology, also tries to account for non-minimal routing, non-contiguous job allocations and possible contentions at intra-node or intra-socket level. We compare our mapping with open source mapping software HierTopoMap and NUMA mapping from LAMMPS and show that our mapping algorithm reduces communication time by more than 15\% in general. While we had applied our strategy to Dragonfly topology, our work is also applicable to general hierarchical topologies.
