@@ -1,5 +1,5 @@
 # HierarchicalTaskMapping
-My masters' thesis report.
+My masters' thesis.
 
 I am unable to share the code for now. But for further details, feel free to contact me.
 
